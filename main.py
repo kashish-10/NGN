@@ -193,7 +193,7 @@ if query:
 
             if post_on_slack: #TODO
                 ans_placeholder.text("Posting on Slack...✅✅✅")
-                url = 'https://hooks.slack.com/services/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'
+                url = ''
                 if fl == 0:
                     payload = {"text": f"*Question:*\n{query}\n*Answer:*\n{result['answer']}\n*Sources:*\n{result['sources']}"}
                 else:
